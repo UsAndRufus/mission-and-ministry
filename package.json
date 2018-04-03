@@ -1,0 +1,25 @@
+{
+  "name": "mission-and-ministry",
+  "version": "1.0.0",
+  "description": "Website for the Mission & Ministry Sunday at City Church Manchester",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UsAndRufus/mission-and-ministry.git"
+  },
+  "keywords": [
+    "church"
+  ],
+  "author": "Edward Bennigsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UsAndRufus/mission-and-ministry/issues"
+  },
+  "homepage": "https://github.com/UsAndRufus/mission-and-ministry#readme",
+  "dependencies": {
+    "uikit": "^3.0.0-beta.40"
+  }
+}
