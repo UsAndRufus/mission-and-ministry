@@ -13,6 +13,18 @@ img {
   margin-right: auto;
 }
 
+#operations-nav h4 {
+  color: @operations;
+}
+
+#membership-nav h4 {
+  color: @membership;
+}
+
+#mission-nav h4 {
+  color: @mission;
+}
+
 #pastoral-care-nav h4 {
   color: @pastoral-care;
 }
@@ -25,14 +37,37 @@ img {
   color: @affections;
 }
 
-#mission-nav h4 {
-  color: @mission;
+
+.details(@colour) {
+  background-color: @colour;
+  color: white;
+  h1 {
+    color: white;
+  }
+
+  padding: 3em 0em 3em 0em;
 }
 
-#membership-nav h4 {
-  color: @membership;
+#operations {
+  .details(@operations);
 }
 
-#operations-nav h4 {
-  color: @operations;
+#membership {
+  .details(@membership);
+}
+
+#mission {
+  .details(@mission);
+}
+
+#pastoral-care {
+  .details(@pastoral-care);
+}
+
+#training {
+  .details(@training);
+}
+
+#affections {
+  .details(@affections);
 }
