@@ -61,4 +61,4 @@ typings/
 .next
 
 # Compiled UIKit
-src/uikit.css
+uikit*
