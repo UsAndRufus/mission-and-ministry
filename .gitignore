@@ -61,5 +61,5 @@ typings/
 .next
 
 # Compiled UIKit
-uikit*
+js/uikit*
 css/mm.css
