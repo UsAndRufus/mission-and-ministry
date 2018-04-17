@@ -7,49 +7,61 @@
 @membership: #ff5f5e;
 @operations: #e2b801;
 
+h1,h2,h3,h4{
+  font-family: 'Times New Roman', serif;
+}
+
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
+.nav-title(@colour) {
+  color: @colour;
+  @media (max-width: @breakpoint-large) {
+    .uk-heading-primary;
+  }
+}
+
 #operations-nav h4 {
-  color: @operations;
+  .nav-title(@operations);
 }
 
 #membership-nav h4 {
-  color: @membership;
+  .nav-title(@membership);
 }
 
 #mission-nav h4 {
-  color: @mission;
+  .nav-title(@mission);
 }
 
 #pastoral-care-nav h4 {
-  color: @pastoral-care;
+  .nav-title(@pastoral-care);
 }
 
 #training-nav h4 {
-  color: @training;
+  .nav-title(@training);
 }
 
 #affections-nav h4 {
-  color: @affections;
+.nav-title(@affections);
 }
 
 
 .details(@colour) {
 
   div {
-    .uk-light
+    .uk-light;
+    color: black;
   }
   background-color: @colour;
 
   h1 a {
-    .uk-align-right
+    .uk-align-right;
   }
 
-  .uk-section-large
+  .uk-section-large;
 
 
 }
