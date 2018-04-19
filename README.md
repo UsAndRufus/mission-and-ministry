@@ -4,3 +4,5 @@
 * `$ npm install`
 * `$ gulp`
 * `localhost:3000` will pop up. Gulp will compile and refresh the page whenever source is saved
+
+You'll also need the video files as these aren't in source control.

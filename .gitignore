@@ -63,3 +63,5 @@ typings/
 # Compiled UIKit
 js/uikit*
 css/mm.css
+
+video/*
